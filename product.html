@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atelier Terres Claires — Céramiques artisanales</title>
+  <meta name="description"
+    content="Atelier Terres Claires, céramiques artisanales françaises. Des objets du quotidien qui ont du sens.">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,900;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <div class="top-header">
+      <div class="logo-container">
+        <a href="./index.html">
+          <img src="./img/logo.png" alt="Atelier Terres Claires — Céramiques artisanales" class="logo-img">
+        </a>
+      </div>
+      <p class="top-header_text">Des objets du quotidien qui ont du sens</p>
+      <div class="nav-icons">
+        <a href="#" class="icon-link" aria-label="Rechercher">
+          <img class="nav-icon" src="./img/magnifying-glass-solid-full.svg" alt="">
+        </a>
+        <a href="#" class="icon-link" aria-label="Mon compte">
+          <img class="nav-icon" src="./img/user-regular-full.svg" alt="">
+        </a>
+        <a href="#" class="icon-link" aria-label="Panier">
+          <img class="nav-icon" src="./img/Shopping-bag.svg" alt="">
+        </a>
+        <button type="button" class="hamburger-label" id="nav-toggle" aria-expanded="false" aria-controls="site-navbar"
+          aria-label="Ouvrir le menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+    <nav class="navbar" id="site-navbar">
+      <a class="navlink active" href="./index.html">Accueil</a>
+      <a class="navlink" href="./collection.html">Collections</a>
+      <a class="navlink" href="./a-propos.html">À propos</a>
+      <a class="navlink" href="./contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+
+    <section class="products-section">
+      <article class="product-detail">
+        <div>
+          <img src="https://placehold.co/400x600" alt="Bol émaillé vert" class="product-image">
+        </div>
+        <div class="product-info">
+          <h1 class="collection-title">Nos Bols</h1>
+          <h2 id="home-title">Bol en grès bleu</h2>
+          <p class="product-price">35 €</p>
+          <p class="product-name">Un bol unique, façonné à la main dans notre atelier en France. Idéal pour vos
+            petits-déjeuners, soupes ou plats du quotidien, il allie esthétique et durabilité</p>
+          <div class="cart-section">
+            <p>Quantité</p>
+            <div class="quantity-section">
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="table-data">-</td>
+                    <td class="table-data">1</td>
+                    <td class="table-data">+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <button type="button" class="button-primary">Ajouter au panier</button>
+            </div>
+          </div>
+          <div class="product-icon-section">
+            <p>☘️</p>
+            <p>👋</p>
+            <p>🍀</p>
+            <p>🚚</p>
+          </div>
+
+        </div>
+        </div>
+      </article>
+
+    </section>
+    <aside class="info-banner">
+      <i class="fas fa-shipping-fast info-banner_icon" aria-hidden="true"></i>
+      <p>
+        <span class="info-banner_title">Livraison offerte dès 60 €</span>
+        <span class="info-banner_subtitle">En France métropolitaine. Expédition sous 48 h.</span>
+      </p>
+    </aside>
+  </main>
+  <footer>
+    <div class="footer-main">
+      <div class="footer-brand">
+        <img src="./img/logo.png" alt="Atelier Terres Claires — Céramiques artisanales" class="footer-logo">
+      </div>
+      <nav class="footer-nav">
+        <h3>Navigation</h3>
+        <a href="./index.html">Accueil</a>
+        <a href="./collection.html">Collections</a>
+        <a href="./a-propos.html">À propos</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <nav class="footer-nav">
+        <h3>Informations</h3>
+        <a href="#">Livraison</a>
+        <a href="#">Retours</a>
+        <a href="#">Mentions légales</a>
+        <a href="#">Politique de confidentialité</a>
+      </nav>
+      <div class="footer-social">
+        <h3>Suivez-nous</h3>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Atelier Terres Claires. Tous droits réservés.</p>
+      <p class="footer-tagline">Des objets du quotidien qui ont du sens.</p>
+    </div>
+  </footer>
+  <script src="./script.js" defer></script>
+</body>
+
+</html>
